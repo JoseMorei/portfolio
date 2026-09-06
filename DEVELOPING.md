@@ -3,6 +3,36 @@
 Static site built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 All content is plain Markdown in `docs/`.
 
+## ⚠️ On a fresh clone, set the commit identity first
+
+This repo deliberately commits as a GitHub noreply address with signing off, so
+that a personal portfolio carries no link to a work identity. Those are
+**repo-local settings** — they live in `.git/config`, which is not committed, so
+a fresh clone silently falls back to your global config and starts authoring and
+signing commits as your work email again.
+
+Before the first commit in any new clone:
+
+```bash
+git config user.email "89228262+JoseMorei@users.noreply.github.com"
+git config commit.gpgsign false
+```
+
+Verify with `git log -1 --format='%an <%ae> signed=%G?'` — expect the noreply
+address and `signed=N`.
+
+Why signing is off rather than just the email changed: the GPG key normally used
+here lists a work email as a public UID on GitHub, so a signed commit resolves
+back to that identity even when the author address is the noreply one.
+
+For a permanent fix across all personal repos, use a conditional include in
+`~/.gitconfig` instead of remembering the two commands above:
+
+```gitconfig
+[includeIf "gitdir:~/personal/"]
+    path = ~/.gitconfig-personal
+```
+
 ## Local preview
 
 ```bash
