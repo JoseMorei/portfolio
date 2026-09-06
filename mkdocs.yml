@@ -1,0 +1,116 @@
+site_name: Jose Moreira
+site_description: >-
+  Senior Site Reliability Engineer and AI Solutions Architect - production-grade
+  AI systems, cloud infrastructure, Kubernetes, IaC and security compliance.
+site_author: Jose Moreira
+# TODO: change to your custom domain once DNS is pointed (see README.md).
+site_url: https://JoseMorei.github.io/portfolio/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/console-network
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/josemoreira2
+      name: LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/JoseMorei
+      name: GitHub
+    - icon: simple/huggingface
+      link: https://huggingface.co/jgmoreira
+      name: Hugging Face
+    - icon: simple/kaggle
+      link: https://www.kaggle.com/josemoreirauy
+      name: Kaggle
+  generator: false
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+plugins:
+  - search
+
+nav:
+  - "Home": index.md
+  - "Full Resume": full-resume.md
+  - "Continuous Learning":
+    - continuous-learning/index.md
+    - "LLMOps with DATABRICKS  - Maria Vechtomova (Cauchy)": continuous-learning/llmops-with-databricks-maria-vechtomova-cauchy.md
+    - "AI Solutions Architect  - Dr. Duc Haba  (ELVTR)":
+      - continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/index.md
+      - "Challenge 1": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-1.md
+      - "Challenge 2": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-2.md
+      - "Challenge 3": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-3.md
+      - "Challenge 4": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-4.md
+      - "Challenge 5": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-5.md
+      - "Challenge 6": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-6.md
+      - "Challenge 7": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-7.md
+      - "Challenge 8": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-8.md
+      - "Challenge 9": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-9.md
+      - "Challenge 10": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-10.md
+      - "Challenge 11": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-11.md
+      - "Challenge 12": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-12.md
+      - "Challenge 13": continuous-learning/ai-solutions-architect-dr-duc-haba-elvtr/challenge-13.md
+    - "Machine Learning DevOps Engineer Nanodegree - Udacity": continuous-learning/machine-learning-devops-engineer-nanodegree-udacity.md
+    - "Machine Learning in Production - Andrew Ng  (DeepLearning.ai)": continuous-learning/machine-learning-in-production-andrew-ng-deeplearning-ai.md
+    - "AI Practitioner - AWS": continuous-learning/ai-practitioner-aws.md
+    - "GitOps Certified with ARGO - Codefresh - 2024": continuous-learning/gitops-certified-with-argo-codefresh-2024.md
+    - "Certified Kubernetes Administrator (CKA) - Linux Foundation - 2024": continuous-learning/certified-kubernetes-administrator-cka-linux-foundation-2024.md
+    - "Prometheus Certified Administrator - Linux Foundation - 2023": continuous-learning/prometheus-certified-administrator-linux-foundation-2023.md
+    - "Cloud & Devops Continuous Transformation - MIT - 2021": continuous-learning/cloud-devops-continuous-transformation-mit-2021.md
+    - "CKAD - Linux Foundation - 2021": continuous-learning/ckad-linux-foundation-2021.md
+    - "Terraform Associate - Hashicorp - 2020": continuous-learning/terraform-associate-hashicorp-2020.md
+    - "Solutions Architect Associate - AWS - 2020": continuous-learning/solutions-architect-associate-aws-2020.md
+    - "Databases & Data Analytics Certification - UC Santa Cruz extension  - 2017": continuous-learning/databases-data-analytics-certification-uc-santa-cruz-extension-2017.md
+  - "Portfolio - Experiments & Labs":
+    - portfolio-experiments-labs/index.md
+    - "Futbol Agents": portfolio-experiments-labs/futbol-agents.md
+    - "Agentic RAG - LlamaIndex/Ollama": portfolio-experiments-labs/agentic-rag-llamaindex-ollama.md
+    - "Web app for Security Operations Center (SOC) log analysis": portfolio-experiments-labs/web-app-for-security-operations-center-soc-log-analysis.md
+    - "Friendly Text Moderation Demo": portfolio-experiments-labs/friendly-text-moderation-demo.md

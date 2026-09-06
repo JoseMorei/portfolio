@@ -1,0 +1,3 @@
+# CKAD - Linux Foundation - 2021
+
+- [Certified Kubernetes Application Developer (CKAD) | Linux Foundation Education](https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/?utm_source=google&utm_medium=paid-search&utm_campaign=24q2-evergreen-lf_training&utm_term=tnc-na-search-lf-ckad&utm_content=tnc-na-search-lf-ckad-eg_rsa&gad_source=1&gad_campaignid=21372675077&gbraid=0AAAAAD2R-loPQuqM6k3TMkKlHEkpjljFi&gclid=Cj0KCQiA4eHLBhCzARIsAJ2NZoIKTatj-P5g-3Yg_McU3dKXufsePTLu57SIX2qdBqGPNC5kpqMGreIaAgBBEALw_wcB) — Open new career doors - prove your Kubernetes & cloud native developer skills with the CKAD certification that is recognized globally, vendor-neutral, and relevant across all industries.
