@@ -6,7 +6,7 @@
 
 **Full resume:**
 
-[Jose\_Moreira\_Resume.pdf](assets/jose_moreira_resume.pdf) &nbsp;<small>(132.3 KiB)</small>
+[Jose\_Moreira\_Resume.pdf](assets/jose_moreira_resume.pdf) &nbsp;<small>(148.2 KiB)</small>
 
 ### Latest Certifications
 
