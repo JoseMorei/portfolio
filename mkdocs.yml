@@ -4,7 +4,7 @@ site_description: >-
   AI systems, cloud infrastructure, Kubernetes, IaC and security compliance.
 site_author: Jose Moreira
 # TODO: change to your custom domain once DNS is pointed (see README.md).
-site_url: https://JoseMorei.github.io/portfolio/
+site_url: https://josemorei.github.io/portfolio/
 
 theme:
   name: material
