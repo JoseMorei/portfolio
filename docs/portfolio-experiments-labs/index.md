@@ -6,6 +6,8 @@
 
 ![Github.png](../assets/github.png)
 
+- [Dagster - NYC Taxi Data Pipeline](dagster-nyc-taxi-pipeline.md)
+
 - [Futbol Agents](futbol-agents.md)
 
 [SRE-OnCall-Agent-Desing - Claude Code ](https://github.com/JoseMorei/oncall-agent-design)

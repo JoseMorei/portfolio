@@ -110,6 +110,7 @@ nav:
     - "Databases & Data Analytics Certification - UC Santa Cruz extension  - 2017": continuous-learning/databases-data-analytics-certification-uc-santa-cruz-extension-2017.md
   - "Portfolio - Experiments & Labs":
     - portfolio-experiments-labs/index.md
+    - "Dagster - NYC Taxi Data Pipeline": portfolio-experiments-labs/dagster-nyc-taxi-pipeline.md
     - "Futbol Agents": portfolio-experiments-labs/futbol-agents.md
     - "Agentic RAG - LlamaIndex/Ollama": portfolio-experiments-labs/agentic-rag-llamaindex-ollama.md
     - "Web app for Security Operations Center (SOC) log analysis": portfolio-experiments-labs/web-app-for-security-operations-center-soc-log-analysis.md

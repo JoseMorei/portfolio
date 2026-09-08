@@ -12,6 +12,10 @@
 
 - [AI Practitioner - AWS](ai-practitioner-aws.md)
 
+### Data Engineering
+
+- [Dagster Essentials - Dagster University - 2026](https://courses.dagster.io/courses/dagster-essentials) — completed September 2026. Write-up of what I built: [Dagster - NYC Taxi Data Pipeline](../portfolio-experiments-labs/dagster-nyc-taxi-pipeline.md)
+
 ### SRE
 
 - [GitOps Certified with ARGO - Codefresh - 2024](gitops-certified-with-argo-codefresh-2024.md)
