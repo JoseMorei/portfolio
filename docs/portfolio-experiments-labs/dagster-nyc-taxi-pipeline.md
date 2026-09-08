@@ -75,12 +75,3 @@ trip_update_job = dg.define_asset_job(
 ## Stack
 
 Dagster 1.13 · DuckDB · Pandas · GeoPandas · Matplotlib · Python · `uv` · GitHub Codespaces
-
-## Why this one mattered to me
-
-Coming from SRE, the interesting part was not the taxi data - it was seeing an orchestrator treat
-data assets the way we treat desired state in infrastructure: declare what should exist, let the
-system work out the graph, make every unit independently retryable, and get observability
-(freshness, partition status, run history) for free rather than bolting it on afterwards. The
-partition-level retry and the exactly-once sensor `run_key` are the same ideas as idempotent
-reconciliation and deduplicated alerting, in a different domain.
