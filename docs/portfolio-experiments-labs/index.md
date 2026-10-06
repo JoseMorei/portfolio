@@ -1,5 +1,7 @@
 # Portfolio - Experiments & Labs
 
+[OpenBao](https://github.com/JoseMorei/OpenBao)
+
 [Dagster - NYC Taxi Data Pipeline (repository)](https://github.com/JoseMorei/project-dagster-university/tree/main)
 
 ![Screenshot 2026-04-16 at 7.14.13 PM.png](../assets/screenshot-2026-04-16-at-7.14.13-pm.png)
